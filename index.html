@@ -8,21 +8,21 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-            <h3 class="display-4 text-center ">New York Times Search</h3>
+    <div class="container px-0 mb-3">
+        <div class="jumbotron bg-primary">
+            <h1 class="display-4 text-center text-white font-weight-bold">New York Times Search</h1>
         </div>
     </div>
-    <div class="container">
+    <div class="container border px-0 my-2">
         <form>
-            <div class="title">
-                <p>Search Parameters</p>
+            <div class="title p-2 bg-light border-bottom">
+                <p class="font-weight-bold mb-0">Search Parameters</p>
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label for="searchTerm">Search Term:</label>
                 <textarea class="form-control" id="searchTerm"></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
             <label for="numberRecordsToRetrieve">Number of Records to Retrieve:</label>
             <select class="form-control" id="numberRecordsToRetrieve">
                 <option>5</option>
@@ -30,11 +30,11 @@
                 <option>15</option>
             </select>
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label for="startYear">Start Year (Optional):</label>
                 <textarea class="form-control" id="startYear"></textarea>
             </div>
-            <div class="form-group">
+            <div class="form-group p-2">
                 <label for="endYear">Start Year (Optional):</label>
                 <textarea class="form-control" id="endYear"></textarea>
             </div>
@@ -42,8 +42,15 @@
         </form>
     </div>
 
-    <div class="container">
-           
+    <div class="container border px-0 my-4">
+        <form>   
+            <div class="title p-2 bg-light border-bottom">
+                <p class="font-weight-bold mb-0">Top Articles</p>
+            </div>
+            <div class="articles pb-5">
+                <p></p>
+            </div>
+        </form>       
     </div>
 
 
