@@ -15,14 +15,14 @@
     </div>
     <div class="container border px-0 my-2">
         <form>
-            <div class="title p-2 bg-light border-bottom">
+            <div class="title p-2 mb-0 bg-light border-bottom">
                 <p class="font-weight-bold mb-0">Search Parameters</p>
             </div>
-            <div class="form-group p-2">
+            <div class="form-group p-2 mb-0">
                 <label for="searchTerm">Search Term:</label>
-                <textarea class="form-control" id="searchTerm"></textarea>
+                <input class="form-control" type="text" id="searchTerm"></input>
             </div>
-            <div class="form-group p-2">
+            <div class="form-group p-2 mb-0">
             <label for="numberRecordsToRetrieve">Number of Records to Retrieve:</label>
             <select class="form-control" id="numberRecordsToRetrieve">
                 <option>5</option>
@@ -30,13 +30,13 @@
                 <option>15</option>
             </select>
             </div>
-            <div class="form-group p-2">
+            <div class="form-group p-2 mb-0">
                 <label for="startYear">Start Year (Optional):</label>
-                <textarea class="form-control" id="startYear"></textarea>
+                <input class="form-control" type="text" id="startYear"></input>
             </div>
-            <div class="form-group p-2">
+            <div class="form-group p-2 mb-0">
                 <label for="endYear">Start Year (Optional):</label>
-                <textarea class="form-control" id="endYear"></textarea>
+                <input class="form-control" type="text" id="endYear"></input>
             </div>
             <span><button type="button" class="btn btn-link" id='search'>Search</button><button type="button" class="btn btn-link" id='clearResults'>Clear Results</button></span>
         </form>
